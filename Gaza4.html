@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaza</title>
+<style>
+form{
+  max-width: 900px;
+  margin: auto;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+  }
+
+.container{
+width: 100%;
+}
+
+.A1{
+width: 60%;
+float: left;
+}
+
+.A2{
+width: 40%;
+float: left;
+}
+
+.A1 p{
+  float: right;
+  margin-right: 320px;
+}
+
+.A2 p{
+  float: right;
+  margin-right: 125px;
+}
+
+#hiddenText{
+  margin-top: -5px;
+  margin-right: 125px;
+}
+
+
+#hidden{
+  margin-right: 330px;
+  margin-top: -5px;
+}
+
+</style>
+</head>
+
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <form action="" target="_blank" method="post">
+
+      <script>
+        function showHiddenText() {
+            var hiddenText = document.getElementById("hiddenText");
+
+            if (hiddenText.style.display === "none") {
+                hiddenText.style.display = "block";
+            } else {
+                hiddenText.style.display = "none";
+            }
+        }
+
+         function showHidden() {
+            var hidden= document.getElementById("hidden");
+
+            if (hidden.style.display === "none") {
+                hidden.style.display = "block";
+            } else {
+                hidden.style.display = "none";
+            }
+        }
+    </script>
+   
+      <div class="container">
+
+      <div class="A1">
+
+      <img src="A4.jpg" width="300px" height="300px" style="border: 1px solid black; border-radius: 5px;">
+      <b><p id="showText" onclick="showHidden()">عبد الكريم علي ابو سيف</p></b>
+      <p id="hidden">كاتب  محتوى وافكار</p>
+      </div>
+
+      <div class="A2">
+
+        <img src="A5.jpg" width="300px" height="300px" style="border: 1px solid black; border-radius: 5px;">
+       <b><p id="showText" onclick="showHiddenText()">احمد جمال احمد ابو عواد</p></b> 
+       <p id="hiddenText" style="width: 31%">تصميم وبناء</p>
+      </div>
+
+      </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,420 @@
+form{
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  body {
+      font-family: "Work Sans", sans-serif;
+    }
+
+    .F3,.F4,.F5{
+      @media only screen and (max-width: 600px){
+        width:33.33%;
+        font-size: small;
+     }
+      width: 33.33%;
+         float: left;
+         text-align: center;
+         background-color:black;
+           color: #fff;
+           padding: 10px 15px;
+           border-radius: 4px;
+           box-sizing: border-box;
+           cursor: pointer;
+           font-size: 16px;
+           text-decoration: none;
+    }
+    
+    .F3:hover{
+      margin-top: 10px;
+     background-color: #ccc;
+    }
+    
+    .F4:hover{
+      margin-top: 10px;
+      background-color: #ccc;
+    }
+
+    .F5:hover{
+      margin-top: 10px;
+      background-color: #ccc;
+    }
+
+    .menu {
+      padding: 20px;
+    }
+  
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+  .menu .logo {
+      width: 60px;
+    }
+  
+    .menu .links {
+      position: relative;
+    }
+  
+  .menu .links:hover .icon span:nth-child(2) {
+      width: 100%;
+    }
+  
+  .menu .links .icon {
+      width: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+  
+  .menu .links .icon span {
+      background-color: #333;
+      margin-bottom: 5px;
+      height: 2px;
+    }
+  
+  .menu .links .icon span:first-child {
+      width: 100%;
+    }
+  
+  .menu .links .icon span:nth-child(2) {
+      width: 60%;
+      transition: var(--main-duration);
+    }
+  
+   .menu .links .icon span:last-child {
+      width: 100%;
+    }
+  
+   .menu .links ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f6f6;
+      position: absolute;
+      right: 0;
+      min-width: 200px;
+      top: calc(100% + 15px);
+      display: none;
+      z-index: 1;
+      transition: display 0.3s ease; 
+    }
+  
+   .menu .links ul::before {
+      content: "";
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent #f6f6f6 transparent;
+      position: absolute;
+      right: 5px;
+      top: -20px;
+    }
+  
+   .menu .links:hover ul {
+      display: block;
+    }
+  
+   .menu .links ul li a {
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      color: #333;
+      transition: var(--main-duration);
+    }
+  
+   .menu .links ul li a:hover {
+      padding-left: 25px;
+    }
+    
+   .menu .links ul li:not(:last-child) a {
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .Intro{
+      @media only screen and (max-width: 600px){
+        width:100%;
+        font-size: small;
+        height: 150px;
+     }
+      width: 100%;
+      background-image: url(../Gaza/A2.jpg);
+      background-size: cover; 
+      border-radius: 5px;
+    }
+  
+    #A{
+      width: 21%;
+      background-color: red;
+     margin: auto;
+      color: white;
+      text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration:underline;
+    margin-left: 530px;
+    }
+
+    #A{
+      @media only screen and (max-width: 600px){
+        width:58%;
+        margin-left: 110px;
+     }
+    }
+  
+    .Intro p{
+      @media only screen and (max-width: 600px){
+        width:100%;
+        font-size: 11.5px;
+        margin-top: 5px;
+     }
+      font-size: 19px;
+      text-align: center;
+      color:rgba(255, 255, 255, 0.856);
+    }
+  
+    .main{
+      @media only screen and (max-width: 600px){
+        width:100%;
+        font-size: smaller;
+     }
+      width: 100%;
+      font-size: smaller;
+    }
+  
+    .شمال{
+      @media only screen and (max-width: 600px){
+        width:100%;
+     }
+      width: 100%;
+    }
+  
+    .شمال h2{
+      @media only screen and (max-width: 600px){
+        width: 70%;
+              margin-left: 0;
+              text-align: center;
+              font-size: medium;    
+     }
+      width: 80%;
+  float: right;
+  text-align: center;
+  margin-left: 100px;
+  text-decoration:underline;
+    }
+  
+    .شمال p{
+      @media only screen and (max-width: 600px){
+        width: 70%;
+       text-align: right;
+       border: 1px solid black;
+       margin-top: -160px;
+       font-size: 10.5px;
+     }
+      width:75%;
+      float: right;
+      text-align: right;
+      border: 1px solid black;
+      padding: 5px;
+      margin-top: -10px;
+      font-size: 14px;
+    }
+
+    #AA1{
+      margin-top: -30px;
+    }
+
+    .شمال img{
+      @media only screen and (max-width: 600px){
+        width:25%;
+        font-size: small;
+        margin-top:10px ;
+     }
+     margin-top: -70px;
+    }
+
+    .دير{
+      @media only screen and (max-width: 600px){
+        width:100%;
+     }
+      width: 100%;
+    }
+  
+  .دير h2{
+    @media only screen and (max-width: 600px){
+      width: 70%;
+            margin-left: 0;
+            text-align: center;
+            font-size: medium;
+   }
+    width: 80%;
+  float: right;
+  text-align: center;
+  margin-left: 100px;
+  text-decoration:underline;
+  }
+  
+  .دير p{
+    @media only screen and (max-width: 600px){
+      width: 70%;
+       text-align: right;
+       border: 1px solid black;
+       margin-top: -160px;
+       font-size: 10.5px;
+   }
+    width:75%;
+      float: right;
+      text-align: right;
+      border: 1px solid black;
+      padding: 5px;
+       margin-top: -10px;
+       font-size: 13.4px;
+  }
+
+  .دير img{
+    @media only screen and (max-width: 600px){
+      width:25%;
+        font-size: small;
+        margin-top:10px ;
+   }
+   margin-top: -70px;
+  }
+
+
+  .خانيونس{
+    @media only screen and (max-width: 600px){
+      width:100%;
+      font-size: small;
+   }
+    width: 100%;
+  }
+  
+  .خانيونس h2{
+    @media only screen and (max-width: 600px){
+      width: 70%;
+            margin-left: 0;
+            text-align: center;
+            font-size: medium;
+   }
+    width: 80%;
+  float: right;
+  text-align: center;
+  margin-left: 100px;
+  text-decoration:underline;
+  }
+  
+  .خانيونس p{
+    @media only screen and (max-width: 600px){
+      width: 70%;
+       text-align: right;
+       border: 1px solid black;
+       margin-top: -160px;
+       font-size: 10.5px;
+   }
+    width:75%;
+      float: right;
+      text-align: right;
+      padding: 5px;
+      border: 1px solid black;
+      margin-top: -10px;
+      font-size: 14px;
+  }
+
+  .خانيونس img{
+    @media only screen and (max-width: 600px){
+      width:25%;
+        font-size: small;
+        margin-top:10px ;
+   }
+   margin-top: -70px;
+  }
+  
+  .رفح{
+    @media only screen and (max-width: 600px){
+      width:100%;
+      font-size: small;
+   }
+    width: 100%;
+  }
+  
+  .رفح  h2{
+    @media only screen and (max-width: 600px){
+      width: 70%;
+            margin-left: 0;
+            text-align: center;
+            font-size: medium;
+   }
+    width: 80%;
+  float: right;
+  text-align: center;
+  margin-left: 100px;
+  text-decoration:underline;
+  }
+  
+  .رفح p{
+    @media only screen and (max-width: 600px){
+      width: 70%;
+      text-align: right;
+      border: 1px solid black;
+      margin-top: -160px;
+      font-size: 10.5px;
+   }
+    width:75%;
+      float: right;
+      text-align: right;
+      padding: 5px;
+      border: 1px solid black;
+      margin-top: -10px;
+      font-size: 14px;
+  }
+
+  .رفح img{
+    @media only screen and (max-width: 600px){
+      width:25%;
+        font-size: small;
+        margin-top:10px ;
+   }
+   margin-top: -70px;
+  }
+
+  .NP{
+    @media only screen and (max-width: 600px){
+      font-size: small;
+      text-decoration: none;
+   }
+           text-decoration: none;
+           border: none;
+           font-size: medium;
+        }
+
+
+        .Ah{
+          background-image: url(../Gaza/A3.jpg);
+          background-size: cover;
+          width: 100%;
+          height: 130px;
+          border-radius: 5px;
+        }
+
+        .NP2{
+          @media only screen and (max-width: 600px){
+            width:15%;
+            margin-right: 190px;
+         }
+         
+          color:white;
+          background-color: red;
+          margin-left: 650px;
+          margin-right: 650px;
+          width: 5%;
+          float: right;
+          margin-top: 50px;
+          font-size: larger;
+        }
+        
+
+       
+
+
+       

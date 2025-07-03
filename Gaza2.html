@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaza News</title>
+    <style>
+        form{
+  max-width: 900px;
+  margin: auto;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .Hh1{
+    @media only screen and (max-width: 600px){
+      width:28%;
+      margin-left: 180px;
+   }
+   width: 15%;
+   color: white;
+    text-align: center;
+     background-color: red;
+      margin-left: 395px;  
+  }
+
+  .F3,.F4,.F5{
+    @media only screen and (max-width: 600px){
+        width:33.33%;
+        font-size: small;
+     }
+      width: 33.33%;
+         float: left;
+         text-align: center;
+         background-color:black;
+           color: #fff;
+           padding: 10px 15px;
+           border-radius: 4px;
+           box-sizing: border-box;
+           cursor: pointer;
+           font-size: 16px;
+           text-decoration: none;
+    }
+    
+    .F3:hover{
+      margin-top: 10px;
+     background-color: #ccc;
+    }
+    
+    .F4:hover{
+      margin-top: 10px;
+      background-color: #ccc;
+    }
+
+    .F5:hover{
+      margin-top: 10px;
+      background-color: #ccc;
+    }
+
+         .main{
+    width: 100%;
+  }
+
+  .غزة{
+    @media only screen and (max-width: 600px){
+      width:100%;
+      font-size: small;
+   }
+    width: 100%;
+  }
+
+  .غزة h2{
+    @media only screen and (max-width: 600px){
+      width: 70%;
+            margin-left: 0;
+            text-align: center;
+            font-size: medium;
+   }
+    width: 80%;
+  float: right;
+  text-align: center;
+  margin-left: 100px;
+  text-decoration:underline;
+  }
+
+  .غزة p{
+    @media only screen and (max-width: 600px){
+      width: 70%;
+      text-align: right;
+      border: 1px solid black;
+      margin-top: -160px;
+      font-size: 10.5px;
+   }
+    width:75%;
+      float: right;
+      text-align: right;
+      padding: 5px;
+      border: 1px solid black;
+      margin-top: -40px;
+      font-size: 14px;
+  }
+
+  .غزة img{
+    @media only screen and (max-width: 600px){
+      width:25%;
+      font-size: small;
+        margin-top:10px ;
+   }
+   margin-top: -110px;
+  }
+
+  .دير{
+    @media only screen and (max-width: 600px){
+      width:100%;
+      font-size: small;
+   }
+    width: 100%;
+  }
+
+.دير h2{
+  @media only screen and (max-width: 600px){
+    width: 70%;
+            margin-left: 0;
+            text-align: center;
+            font-size: medium;
+   }
+    width: 80%;
+  float: right;
+  text-align: center;
+  margin-left: 100px;
+  text-decoration:underline;
+}
+
+.دير p{
+  @media only screen and (max-width: 600px){
+    width: 70%;
+      text-align: right;
+      border: 1px solid black;
+      margin-top: -160px;
+      font-size: 10.5px;
+   }
+    width:75%;
+      float: right;
+      text-align: right;
+      padding: 5px;
+      border: 1px solid black;
+      margin-top: -40px;
+      font-size: 14px;
+}
+
+.دير img{
+    @media only screen and (max-width: 600px){
+      width:25%;
+      font-size: small;
+        margin-top:10px ;
+   }
+   margin-top: -110px;
+  }
+
+.خانيونس{
+  @media only screen and (max-width: 600px){
+      width:100%;
+      font-size: small;
+   }
+  width: 100%;
+}
+
+.خانيونس h2{
+  @media only screen and (max-width: 600px){
+    width: 70%;
+            margin-left: 0;
+            text-align: center;
+            font-size: medium;
+   }
+    width: 80%;
+  float: right;
+  text-align: center;
+  margin-left: 100px;
+  text-decoration:underline;
+}
+
+.خانيونس p{
+  @media only screen and (max-width: 600px){
+    width: 70%;
+      text-align: right;
+      border: 1px solid black;
+      margin-top: -160px;
+      font-size: 10.5px;
+   }
+    width:75%;
+      float: right;
+      text-align: right;
+      padding: 5px;
+      border: 1px solid black;
+      margin-top: -40px;
+      font-size: 14px;
+}
+
+.خانيونس img{
+    @media only screen and (max-width: 600px){
+      width:25%;
+      font-size: small;
+        margin-top:10px ;
+   }
+   margin-top: -110px;
+  }
+
+.رفح{
+  @media only screen and (max-width: 600px){
+      width:100%;
+      font-size: small;
+   }
+  width: 100%;
+}
+
+.رفح  h2{
+  @media only screen and (max-width: 600px){
+    width: 70%;
+            margin-left: 0;
+            text-align: center;
+            font-size: medium;
+   }
+    width: 80%;
+  float: right;
+  text-align: center;
+  margin-left: 100px;
+  text-decoration:underline;
+}
+
+.رفح p{
+  @media only screen and (max-width: 600px){
+    width: 70%;
+      text-align: right;
+      border: 1px solid black;
+      margin-top: -160px;
+      font-size: 10.5px;
+   }
+    width:75%;
+      float: right;
+      text-align: right;
+      padding: 5px;
+      border: 1px solid black;
+      margin-top: -40px;
+      font-size: 14px;
+}
+
+.رفح img{
+    @media only screen and (max-width: 600px){
+      width:25%;
+      font-size: small;
+        margin-top:10px ;
+   }
+   margin-top: -110px;
+  }
+
+.NP{
+         text-decoration: none;
+         border: none;
+         font-size: medium;
+         margin-top: -5px;
+      }
+
+      #wordDisplay {
+        @media only screen and (max-width: 600px){
+            width: 100%;
+            font-size: small;
+         }
+        width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+            opacity: 1;
+            transition: opacity 2s ease; 
+            text-align: right;
+          }
+
+          #wordDisplay span{
+            @media only screen and (max-width: 600px){
+              width: 7%;
+               font-size: small;
+               float: right;
+           }
+           width: 6%;
+         }
+
+          .Mar{
+            @media only screen and (max-width: 600px){
+              width: 135%;
+                font-size: small;
+            margin-left: -158px;
+   }
+   margin-top: 10px;
+          }
+
+          .Ah{
+            @media only screen and (max-width: 600px){
+            width:100%;
+            margin-left: 1px;
+         }
+          background-image: url(../Gaza/A3.jpg);
+          background-size: cover;
+          width: 148%;
+          height: 130px;
+          border-radius: 5px;
+          margin-left: -215px;
+        }
+
+        .NP2{
+          @media only screen and (max-width: 600px){
+            width:15%;
+            margin-right: 200px;
+         }
+         
+          color:white;
+          background-color: red;
+          margin-left: 650px;
+          margin-right: 650px;
+          width: 5%;
+          float: right;
+          margin-top: 50px;
+          font-size: larger;
+        }
+
+        #AA1{
+      margin-top: -40px;
+    }
+    </style>
+</head>
+<body>
+  
+
+    <form action="" target="_blank" method="post"> 
+ <div>
+    <h1 class="Hh1"> آثار الدمار</h1>
+    <div>
+      <p id="wordDisplay"><span style="text-decoration:underline; color: white; background-color: red; display: block; margin-left: 845px;">!تنويه</span> آخر تحديث للصفحة 2023/12/26</p>
+      <script>
+        var wordElement = document.getElementById("wordDisplay");
+      
+        function toggleVisibility() {
+          // إعادة تعيين الشفافية إلى 1 إذا كانت 0، والعكس صحيح
+          var newOpacity = wordElement.style.opacity === "0" ? "1" : "0";
+          wordElement.style.opacity = newOpacity;
+        }
+      
+        // تعيين تكرار ظهور واختفاء الكلمة كل ثانية (1000 مللي ثانية)
+        setInterval(toggleVisibility, 1000);
+      
+        // تنفيذ الدالة لأول مرة
+        toggleVisibility();
+      </script>
+  </div>
+
+  <hr width="100%">
+
+    <div class="cont">
+        <b>
+     <a href="Gaza3.html" class="F3">!ماذا يمكننا ان نعمل</a>  
+     <a href="Gaza2.html" class="F4">ما بعد الحرب</a>   
+     <a href="Gaza1.html" class="F5">الرئيسية</a> 
+    </b>
+</div>
+
+    <br>
+    <br>
+    
+  
+    <hr width="100%">
+    <div class="main">
+        <div class="غزة" >
+        <h2 id="B">:شمال غزة 
+          <br>
+          <br>
+                <div id="AA1" style="text-align:right; font-size: small;"><button class="NP"><a href="https://www.youtube.com/watch?v=lbTM_I8OLoE&ab_channel=AlJazeeraArabic%D9%82%D9%86%D8%A7%D8%A9%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9" class="NP">انقر هنا</a></button>:المزيد</div>
+          <br>
+          
+        </h2>
+        
+          <img src="ش.jpg" alt="Ah"  width="200px" height="197px" style="border: 1px solid black;"> 
+     <p>
+                حوّل الهجوم العسكري الإسرائيلي معظم الشطر الشمالي من قطاع غزة إلى "مدينة أشباح" وربما لن يكون صالحا للسكن، حيث تم محو أحياء بأكملها، وتعرضت منازل ومدارس ومشافي للقصف الجوي، واحترق بعضها بنيران الدبابات، ولا تزال بعض المباني قائمة، لكن معظمها عبارة عن هياكل متضررة.
+
+وفرّ ما يقرب من مليون فلسطيني من شمال غزة، بما فيه المركز الحضري للمنطقة، مدينة غزة، مع اشتداد القتال البري.
+
+وأدى استخدام الجيش الإسرائيلي للمتفجرات القوية في المناطق السكنية المكتظة، والذي تصفه إسرائيل بأنه النتيجة الحتمية لاستخدام حركة حماس للمواقع المدنية كغطاء لعملياتها، إلى مقتل أكثر من 14000 فلسطيني وإلى دمار مروع.
+            </p>
+          </div>
+
+      <hr>
+          <div class="دير" >
+            <h2 id="C">:دير البلح
+                <br>
+                <br>
+                <div id="AA1" style="text-align:right; font-size: small;"><button class="NP"><a href="https://www.youtube.com/watch?v=lbTM_I8OLoE&ab_channel=AlJazeeraArabic%D9%82%D9%86%D8%A7%D8%A9%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9" class="NP">انقر هنا</a></button>:المزيد</div>
+      <br>
+     
+            </h2>
+              <img src="د.jpg" alt="Ah"  width="200px" height="197px" style="border: 1px solid black;">
+           <p>
+            احتدمت المعارك البرية بين المقاومة الفلسطينية وقوات الاحتلال الإسرائيلي المتوغلة في مناطق متفرقة من قطاع غزة في ظل قصف إسرائيلي وحشي متواصل دخل يومه الـ 78 على القطاع المحاصر، وسط تدهور كبير في الأوضاع الإنسانية مع استمرار العدوان بالتزامن مع اعتماد مجلس الأمن الدولي مشروع قرار يهدف إلى توسيع إدخال المساعدات الإنسانية دون الدعوة إلى وقف إطلاق النار. 
+
+وواصلت طائرات الاحتلال ومدفعيته اليوم السبت قصف مناطق في عموم قطاع غزة، مستهدفة المنازل والتجمعات السكنية والمنشآت التي تؤوي النازحين، بالإضافة إلى الشوارع والبنى التحتية. 
+           </p>
+          </div>
+
+      <hr>
+          <div class="خانيونس" > 
+            <h2 id="D">:خانيونس
+                <br>
+                <br>
+                <div id="AA1" style="text-align:right; font-size: small;"><button class="NP"><a href="https://www.petra.gov.jo/Include/InnerPage.jsp?ID=266915&lang=ar&name=news" class="NP">انقر هنا</a></button>:المزيد</div>
+      <br>
+      
+            </h2>
+              <img src="خ.jpg" alt="Ah"  width="200px" height="197px" style="border: 1px solid black;">
+             <P>
+                تُظهر هذه اللقطات الجوية المصورة حجم الدمار الذي شهدته مدينة خان يونس في قطاع غزة حيث تغطي شوارع المدينة أكوام كبيرة من أنقاض المباني المنهارة. بعد نحو سبعة أسابيع من القصف الإسرائيلي المتواصل للأراضي الفلسطينية رداً على هجمات حماس في 7 تشرين الأول/ أكتوبر.
+
+عاد آلاف النازحين من غزة إلى منازلهم يوم الجمعة مع بدء الهدنة التي تستمر أربعة أيام بين إسرائيل وحماس.
+
+وحل محل ضجيج الحرب أبواق الاختناقات المرورية وصفارات سيارات الإسعاف التي تشق طريقها بين الحشود الخارجة من المستشفيات والمدارس التي لجأت إليها.
+             </P>
+          </div>
+
+       <hr>
+          <div class="رفح">
+            <h2 id="E">:رفح
+                <br>
+                <br>
+                <div id="AA1" style="text-align:right; font-size: small;"><button class="NP"><a href="https://www.skynewsarabia.com/tag?s=%D8%B1%D9%81%D8%AD&offset=36&sort=DATE" class="NP">انقر هنا</a></button>:المزيد</div>
+      <br>
+      
+            </h2>
+              <img src="ر.jpg" alt="Ah"  width="200px" height="197px" style="border: 1px solid black;">
+          <p>
+            قُتل 12 شخصا على الأقل وأصيب العشرات في سلسلة غارات جوية إسرائيلية على مدينة رفح في جنوب قطاع غزة قرب الحدود مع مصر، وفق ما نقلت «وكالة الصحافة الفرنسية» عن وزارة الصحة في قطاع غزة.
+
+وأفاد مراسلو «وكالة الصحافة الفرنسية» وشهود عيان في المدينة عن وقوع أكثر من عشر غارات جوية متتالية أصابت منازل عدة.
+
+وأعلنت وزارة الصحة «انتشال 12 شهيدا وعشرات المصابين بينهم أطفال ونساء من تحت الأنقاض باستهداف منزل ومسجد على بعد مئات الأمتار من مستشفى الكويت».
+          </p>
+          </div>
+      <hr>
+        </div>
+
+        <div class="Mar">
+          <marquee direction="right" behavior="space-between" scrollamount="4"  
+          style="font-size: larger; color: white;  background-color: red; width: 60%;
+           margin-left:200px;">
+         أحداث: غزة  اليوم - آخر المستجدات
+          </marquee> 
+        </div>
+
+          <div style="text-align:left; margin-top: -20px;"><button class="NP"><a href="Gaza1.html" class="NP"><--</a></button></div>
+
+          <div style="text-align:right; margin-top: -20px;"><button class="NP"><a href="Gaza3.html" class="NP">--></a></button></div>
+        
+        
+      <br>
+      <br>
+
+      <div class="Ah">  
+        <a href="Gaza4.html" class="NP2">!من نحن</a>
+        </div>
+</form>
+
+
+</body>
+</html>
